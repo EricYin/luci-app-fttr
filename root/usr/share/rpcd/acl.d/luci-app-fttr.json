@@ -5,6 +5,7 @@
 			"ubus": {
 				"fttr": [
 					"get_capabilities",
+					"get_platform_info",
 					"optical_status",
 					"get_status",
 					"get_topology",
@@ -40,6 +41,7 @@
 					"npu_set",
 					"hl202_account_update",
 					"hl202_exec_start",
+					"select_calibration",
 					"save_calibration",
 					"apply_calibration"
 				]
