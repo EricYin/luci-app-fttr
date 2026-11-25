@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: luci-app-fttr\n"
-"POT-Creation-Date: 2026-11-23 19:05+0800\n"
+"POT-Creation-Date: 2026-11-24 19:12+0800\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -143,6 +143,9 @@ msgstr ""
 msgid "About FTTR"
 msgstr ""
 
+msgid "Access mode"
+msgstr ""
+
 msgid "Account data is unavailable."
 msgstr ""
 
@@ -155,10 +158,16 @@ msgstr ""
 msgid "ACS URL"
 msgstr ""
 
+msgid "Active"
+msgstr ""
+
 msgid "Active allocation"
 msgstr ""
 
 msgid "Active hardware offload flows (PPE FOE Bound)"
+msgstr ""
+
+msgid "Active rules"
 msgstr ""
 
 msgid "Actual OMCI GEM / VLAN inventory"
@@ -171,6 +180,12 @@ msgid "Add this device on the configuration page before fixing its interface."
 msgstr ""
 
 msgid "Address"
+msgstr ""
+
+msgid "Address evidence"
+msgstr ""
+
+msgid "Address origin"
 msgstr ""
 
 msgid "Address unavailable"
@@ -407,10 +422,19 @@ msgid ""
 "Wi-Fi attachment."
 msgstr ""
 
+msgid "Bridge MAC"
+msgstr ""
+
 msgid "Bridge members"
 msgstr ""
 
 msgid "Bridge offload mask"
+msgstr ""
+
+msgid "Bridge-mode MQTT access"
+msgstr ""
+
+msgid "Broker"
 msgstr ""
 
 msgid ""
@@ -525,7 +549,13 @@ msgstr ""
 msgid "Check management differences (read-only)"
 msgstr ""
 
+msgid "Checking"
+msgstr ""
+
 msgid "Chip discriminator"
+msgstr ""
+
+msgid "Cleanup failed"
 msgstr ""
 
 msgid "Clear backoff delays and retry safe difference synchronization"
@@ -546,6 +576,15 @@ msgid "Click to copy full SHA-256"
 msgstr ""
 
 msgid "Click to select or drag a %s file here"
+msgstr ""
+
+msgid "Client"
+msgstr ""
+
+msgid "Client IPv4"
+msgstr ""
+
+msgid "Client MAC"
 msgstr ""
 
 msgid "Close"
@@ -801,6 +840,9 @@ msgstr ""
 msgid "Deleting an unused template also deletes its SSIDs and networks."
 msgstr ""
 
+msgid "Denied"
+msgstr ""
+
 msgid "Desired version"
 msgstr ""
 
@@ -862,6 +904,12 @@ msgid "DHCP start offset"
 msgstr ""
 
 msgid "Diagnostic measurement channel"
+msgstr ""
+
+msgid "Direct"
+msgstr ""
+
+msgid "Direct (verified)"
 msgstr ""
 
 msgid "Direction admission"
@@ -972,6 +1020,9 @@ msgstr ""
 msgid "Enable ACS"
 msgstr ""
 
+msgid "Enable bridge-mode MQTT redirect"
+msgstr ""
+
 msgid "Enable FTTR hardware offload"
 msgstr ""
 
@@ -1046,6 +1097,9 @@ msgid "Ethernet / MAC"
 msgstr ""
 
 msgid "EtherType code"
+msgstr ""
+
+msgid "Evidence / Telemetry"
 msgstr ""
 
 msgid "Evidence freshness"
@@ -1192,6 +1246,9 @@ msgstr ""
 msgid "Frontend"
 msgstr ""
 
+msgid "FSL RX register snapshots"
+msgstr ""
+
 msgid "FTTR"
 msgstr ""
 
@@ -1240,6 +1297,9 @@ msgid "GitHub"
 msgstr ""
 
 msgid "GitHub Repositories"
+msgstr ""
+
+msgid "Global"
 msgstr ""
 
 msgid "Global counters (32-bit)"
@@ -1454,6 +1514,9 @@ msgstr ""
 msgid "LAN / WLAN port bindings"
 msgstr ""
 
+msgid "LAN origin"
+msgstr ""
+
 msgid "Laser bias current"
 msgstr ""
 
@@ -1567,6 +1630,9 @@ msgstr ""
 msgid "Local interfaces"
 msgstr ""
 
+msgid "Local NAT (direct)"
+msgstr ""
+
 msgid ""
 "Logical interface, not a physical splitter port. Counters do not prove "
 "current end-to-end connectivity."
@@ -1676,6 +1742,9 @@ msgid "Manual synchronization"
 msgstr ""
 
 msgid "Map"
+msgstr ""
+
+msgid "Master LAN DHCP (NAT)"
 msgstr ""
 
 msgid "Master switch for FTTR port NPU hardware acceleration admission"
@@ -1808,6 +1877,9 @@ msgstr ""
 msgid "Next self-healing retry in %d seconds"
 msgstr ""
 
+msgid "nftables redirect rules"
+msgstr ""
+
 msgid "No"
 msgstr ""
 
@@ -1866,6 +1938,9 @@ msgid ""
 "the backend result after Save & Apply."
 msgstr ""
 
+msgid "No redirect rule"
+msgstr ""
+
 msgid "No registered sub-gateways."
 msgstr ""
 
@@ -1897,6 +1972,9 @@ msgid "None (Open)"
 msgstr ""
 
 msgid "Not admitted"
+msgstr ""
+
+msgid "Not applicable"
 msgstr ""
 
 msgid "Not applied"
@@ -1990,6 +2068,18 @@ msgid "Observed identity and relationship"
 msgstr ""
 
 msgid "Observed object"
+msgstr ""
+
+msgid ""
+"Off by default. In pure bridge mode where the upstream router assigns LAN "
+"IPv4 via DHCP, selectively redirects verified HL202 sub-gateways' upstream "
+"MQTT (TCP 1883) connections to this controller's embedded broker without "
+"altering NAT-mode ONUs or downstream clients."
+msgstr ""
+
+msgid ""
+"Off by default. Logs up to three RX register snapshots at 30-second "
+"intervals after restart. Restart FTTR to apply changes."
 msgstr ""
 
 msgid "Offline"
@@ -2104,6 +2194,9 @@ msgid "Optical online"
 msgstr ""
 
 msgid "Optical physical layer and link parameters"
+msgstr ""
+
+msgid "Optical port"
 msgstr ""
 
 msgid "Optical RX power"
@@ -2402,6 +2495,12 @@ msgstr ""
 msgid "Recovering"
 msgstr ""
 
+msgid "Redirect installed"
+msgstr ""
+
+msgid "Redirect target"
+msgstr ""
+
 msgid "Refresh"
 msgstr ""
 
@@ -2540,6 +2639,9 @@ msgid "Routed offload mask"
 msgstr ""
 
 msgid "rows"
+msgstr ""
+
+msgid "Rule installed"
 msgstr ""
 
 msgid "RX wavelength"
@@ -2733,6 +2835,9 @@ msgstr ""
 msgid "Size:"
 msgstr ""
 
+msgid "Skipped"
+msgstr ""
+
 msgid "Snapshot"
 msgstr ""
 
@@ -2855,6 +2960,9 @@ msgstr ""
 msgid "Supports Connection Request"
 msgstr ""
 
+msgid "Switch"
+msgstr ""
+
 msgid "Sync now"
 msgstr ""
 
@@ -2881,6 +2989,9 @@ msgstr ""
 msgid "Target"
 msgstr ""
 
+msgid "Target broker"
+msgstr ""
+
 msgid "Target code"
 msgstr ""
 
@@ -2888,6 +2999,12 @@ msgid "Target storage path"
 msgstr ""
 
 msgid "Task"
+msgstr ""
+
+msgid "Telemetry unverified"
+msgstr ""
+
+msgid "Telemetry verified"
 msgstr ""
 
 msgid "Temperature"
@@ -3103,6 +3220,12 @@ msgstr ""
 msgid "Transport observations"
 msgstr ""
 
+msgid "Trial cooldown"
+msgstr ""
+
+msgid "Trial redirect (15s)"
+msgstr ""
+
 msgid "Triggers"
 msgstr ""
 
@@ -3215,6 +3338,12 @@ msgstr ""
 msgid "Uploading to %s..."
 msgstr ""
 
+msgid "Upstream DHCP (Bridge)"
+msgstr ""
+
+msgid "Upstream gateway"
+msgstr ""
+
 msgid "Uptime"
 msgstr ""
 
@@ -3306,6 +3435,12 @@ msgstr ""
 msgid "Waiting ACS listener"
 msgstr ""
 
+msgid "Waiting broker"
+msgstr ""
+
+msgid "Waiting evidence"
+msgstr ""
+
 msgid "Waiting for device reset recovery"
 msgstr ""
 
@@ -3325,6 +3460,9 @@ msgid "Waiting management"
 msgstr ""
 
 msgid "Waiting Management"
+msgstr ""
+
+msgid "Waiting optical"
 msgstr ""
 
 msgid "Waiting task"
